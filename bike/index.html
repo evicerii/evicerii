@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='style.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav id='main_nav'>
+                <ul class='mainNav'>
+                    <li><a href="#aboutUs" class='menu'>about us</a></li>
+                    <li><a href="#work" class='menu'>work</a></li>
+                    <li><a href="#shop" class='menu'>shop</a></li>
+                    <li><a href="#mail" class='menu'>contact</a></li>
+                </ul>
+                
+                <div class="shadowMenu" id='screen'></div>
+            </nav>
+            <div class="navLogoCont">
+                <img src="img/logo/mainMenu.png" alt="navigation Logo">
+            </div>
+            <div class="burger" id ='burger'>
+            </div>
+        </header>
+        <section id="main">
+        </section>
+        <section id="aboutUs">
+            <div class="aboutUsImgCont">
+                <img src="img/logo/aboutUs.png" alt="logoAboutUs">
+            </div>
+            <h2>A NEW GENERATION OF VINTAGE BIKE</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        </section>
+        <section id="work">
+            <div class="firstRow row">
+                <div class="bigImg imgCont">
+                    <img src="img/background/imgWeb/bigImg1.jpg" alt="">
+                    <div class="shadowBlock">
+                        <img src="img/logo/workRow1.png" alt="">
+                    </div>
+                </div>
+                <article class="workCase">
+                    <div class="textBlock">
+                        <div class="logoCont">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="41px" height="30px">
+                                <image  x="0px" y="0px" width="41px" height="30px"  xlink:href="data:img/png;base64,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" />
+                            </svg>
+                        </div>
+                        <h2>vintage Oliva</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived.
+                        </p>
+                    </div>
+                    <div class="smallImg imgCont">
+                        <img src="img/background/imgWeb/smallImg1.jpg" alt="">
+                    </div>
+                </article>
+            </div>
+            <div class="secondRow row">
+                <article class="workCase">
+                    <div class="textBlock">
+                        <div class="logoCont">
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="32px" height="32px">
+                            <image  x="0px" y="0px" width="32px" height="32px"  xlink:href="data:img/png;base64,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" />
+                            </svg>
+                        </div>
+                        <h2>La Boriosa</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived.</p>
+                    </div>
+                    <div class="smallImg imgCont">
+                        <img src="img/background/imgWeb/smallImg2.jpg" alt="">
+                    </div>
+                </article>
+                <div class="bigImg imgCont ">
+                    <img src="img/background/imgWeb/bigImg2.jpg" alt="">
+                    <div class="shadowBlock">
+                        <img src="img/logo/workRow2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="thirdRow row">
+                <div class="medImg imgCont">
+                    <img src="img/background/imgWeb/med31.jpg" alt="">
+                    <div class="shadowBlock">
+                        <img src="img/logo/workRow3.png" alt="">
+                    </div>
+                </div>
+                <article class="workCase">
+                    <div class="textBlock">
+                        <div class="logoCont">
+                            <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="23px" height="41px">
+                            <image  x="0px" y="0px" width="23px" height="41px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAApCAMAAADphEJPAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA8FBMVEWGwJ6HwZ6GwZ6HwZ+HwZ6GwJ6GwZ6HwZ+GwJ6GwZ6HwZ6GwJ6GwJ6HwZ6HwZ6HwZ6HwZ+HwZ+HwZ6HwZ+HwZ6GwJ6GwJ6HwZ+HwZ6HwZ6HwZ6HwZ6HwZ6GwJ6GwZ6HwZ+GwZ6HwZ6GwJ6HwZ+GwJ6HwZ6GwJ6GwJ6GwJ6GwJ6GwZ6GwJ6GwJ6GwJ6HwZ+HwZ+GwJ6HwZ6GwZ6GwZ6GwZ6GwJ6HwZ+HwZ6GwZ6HwZ+GwJ6HwZ+GwJ6GwZ6HwZ6GwZ6HwZ+GwZ6HwZ+GwZ6GwJ6GwZ6HwZ6GwJ6HwZ6HwZ+GwZ6GwZ6HwZ6GwJ6HwZ////9iLXkkAAAAS3RSTlMAAAAAWlpaWgFJu7pJATbOzjdh+vphV/5XHvPZzNXV2R6hegEtLaQZ+5X5F2cRCTMzCRGkpaak0Gdm0OxDQ+v4MDEtLSLl5eHh4eGb10yyAAAAAWJLR0RPbmZBSQAAAAd0SU1FB+UIEhU3MZsJNdEAAAIbSURBVCjPLZOHYhNBDESlXRd6h4AJLVkDCQFC780YkrDl/z+HN3Ls89mWtKOZkc7MLSW3SW1d74kl48pmJLimbdTR25hlc66kePaI91b7mPM3UrY5OO91NM5MU46XAZXAmbXe+6h9lql3AFROegYGDfosRSH3RBP3Sa3gN+IELGVx4YdPK9V1jGn2TUMTWPZ5wNc2cR3PG/4uXbwQBg4xcJTJZ86egw9E2/kLF+2Uv+dLl8WyEYfVlasIFbxduz7GUELx3m7ctKi+tdUH7y6kTo+xdVue3Vmo6O72Pe73tx9wZiwe0vqR9Ozs5gLS0nZ35MZjsydPW+t7AC7bGIWOe+T3n9kBfxfPofbi5eHhK9q9XqD8wN5A7S0akzi755TfAfTePkDgY4xGfiv3CV6f7Qv2fpVz2C6LPX/D2u/2g+xPBprllwTlXyDsG3KqaMQ4wsWCI90GMpfhiLoqXfCjGeWjJFzPsUd8SSD1mLL0mDEf7c5yYIDJreKxRQFlXmS5YVMtnqKnVsMwClOF31YWOJozv8pAEnxqLxbEpQukokmYlrhQLLkx77zqXfXgSFeWFbjguYiKkWMcGybEOUQcvVrL33a6SJgkHyLOdosPTLk0CPnTbL3+00sKGJIePvxdr6k8qiuCKt4MoYzjeJSO4R8PgVYW70o9UXsn7gEfYxGfIxmejsdK8w5vdGLZ/oXwE3yOgUfK8qoS/w9moG8JSClRxQAAAABJRU5ErkJggg==" />
+                            </svg>
+                        </div>
+                        <h2>retrò Bike - M. Hulot</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived.</p>
+                        </div>
+                    <div class="smallImg imgCont">
+                        <img src="img/background/imgWeb/smallImg3.jpg" alt="">
+                    </div>
+                </article>
+                <div class="medImg imgCont">
+                    <img src="img/background/imgWeb/med32.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id='twitter'>
+            <div class="imgCont twitIcon">
+                <img src="img/logo/twitter.png" alt="twitter">
+            </div>
+            <h2>AOD New York  @aod  <span>/  35 min</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. 
+                Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+            <div class="slider">
+                <input type="radio" name='twitter' id='twitter1' checked>
+                <label for="twitter1"></label>
+                <input type="radio" name='twitter' id='twitter2'>
+                <label for="twitter2"></label>
+                <input type="radio" name='twitter' id='twitter3'>
+                <label for="twitter3"></label>
+            </div>
+        </section>
+        <section id="shop">
+            <div class="imgCont">
+                <img src="img/background/shopGrid/grid1.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont">
+                <img src="img/background/shopGrid/grid2.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont heightImg">
+                <img src="img/background/shopGrid/grid3.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont heightImg">
+                <img src="img/background/shopGrid/grid4.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont longImg">
+                <img src="img/background/shopGrid/grid5.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont longImg">
+                <img src="img/background/shopGrid/grid6.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont">
+                <img src="img/background/shopGrid/grid7.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+            <div class="imgCont">
+                <img src="img/background/shopGrid/grid8.jpg" alt="">
+                <div class="shadowBlock">
+                    <img src="img/logo/shopLogo.png" alt="">
+                    <p>shop now</p>
+                </div>
+            </div>
+        </section>
+        <div class="discover">
+            <div class="discoverButton">
+                discover the shop
+            </div>
+        </div>
+        <secton id="mail">
+            <div class="navLogoCont">
+                <img src="img/logo/mainMenu.png" alt="navigation Logo">
+            </div>
+            <p>Stay on the saddle!</p>
+            <form action="">
+                <input type="text" placeholder='enter your email...'>
+                <button>go</button>
+            </form>
+        </secton>
+        <footer>
+            <div class="address">
+                <p>AOD New York</p>
+                <p>2250 Lexington Avenue </p>
+                <p>New York, NY 10035  - info@domain.com</p>
+            </div>
+            <div class="social">
+                <div class="imgCont">
+                    <img src="img/logo/footer/twitter.png" alt="">
+                </div>
+                <div class="imgCont">
+                    <img src="img/logo/footer/fb.png" alt="">
+                </div>
+                <div class="imgCont">
+                    <img src="img/logo/footer/pin.png" alt="">
+                </div>
+            </div>
+            <div class="handed">
+                <p>Handcrafted by</p> <img src="img/logo/footer/yebo.png" alt="">
+            </div>
+        </footer>
+    </div>
+    <script src='js/scripts.js'></script>
+</body>
+</html>
