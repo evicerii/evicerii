@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="imgCont headerLogo">
+        </div>
+        <nav id='mainNav'>
+            <ul class="mainNav">
+                <li><a href="#home" class='menu'>home</a></li>
+            </ul>
+            <div class="shadowMenu" id='screen'></div>
+        </nav>
+        <div class="burger" id ='burger'></div>
+    </header>
+    <section id="home">
+        <div class="carousel">
+            <div class="slideBlock">
+                <div class="slide activeSlide">
+                    <img src="img/background/img1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img data-src="img/background/img2.jpg" src='img/tech/1px.png' alt="">
+                </div>
+                <div class="slide">
+                    <img data-src="img/background/img3.jpg" src='img/tech/1px.png' alt="">
+                </div>
+                <div class="slide">
+                    <img data-src="img/background/img4.jpg" src='img/tech/1px.png' alt="">
+                </div>
+                <div class="slide">
+                    <img data-src="img/background/img5.jpg" src='img/tech/1px.png' alt="">
+                </div>
+                <div class="slide">
+                    <img data-src="img/background/img6.jpg" src='img/tech/1px.png' alt="">
+
+                </div>
+                <div class="arrowBlock">
+                    <div class="imgCont carouselArrows" id='leftArrowCarousel'>
+                        <img src="img/subElements/leftSand.png" alt="">
+                    </div>
+                    <div class="imgCont carouselArrows" id='rightArrowCarousel'>
+                        <img src="img/subElements/rightSand.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="radioBlock">
+            <input type="radio" name='carousel' id='1slide' checked>
+            <label for="1slide"></label>
+            <input type="radio" name='carousel' id='2slide'>
+            <label for="2slide"></label>
+            <input type="radio" name='carousel' id='3slide'>
+            <label for="3slide"></label>
+            <input type="radio" name='carousel' id='4slide'>
+            <label for="4slide"></label>
+            <input type="radio" name='carousel' id='5slide'>
+            <label for="5slide"></label>
+            <input type="radio" name='carousel' id='6slide'>
+            <label for="6slide"></label>
+        </div>
+    </section>
+    <script src='js/script.js'></script>
+</body>
+</html>
