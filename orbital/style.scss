@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+    //Удаление рамок полей ввода
+    input, textarea {outline:none;}
+    input:active, textarea:active {outline:none;}:focus {outline:none;}
+    textarea {resize:none;}
+    textarea {resize:vertical;}
+    textarea {resize:horizontal;}
+}
+@keyframes fly1 {
+    0% { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    100%   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+@keyframes fly2 {
+    0% { transform: rotate(360deg) translateX(250px) rotate(-360deg); }
+    100%   { transform: rotate(0deg) translateX(250px) rotate(0deg); }
+}
+@keyframes fly3 {
+    0% { transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+    100%   { transform: rotate(0deg) translateX(350px) rotate(0deg); }
+}
+
+.orb{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: radial-gradient(red, rgb(211, 139, 6));
+    box-shadow: 0 0 5px 5px rgb(211, 139, 6);
+    position: absolute;
+    top:400px;
+    left:500px
+}
+.flyOrb{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top:415px;
+    left:515px;
+
+}
+.flyOrb1{
+    background: radial-gradient(rgb(9, 9, 87), rgb(14, 14, 223));
+    animation: fly1 10s linear infinite;
+}
+.flyOrb2{
+    background: radial-gradient(red, orange);
+    animation: fly2 15s linear infinite;
+}
+.flyOrb3{
+    background: radial-gradient(green, yellowgreen);
+    animation: fly3 20s linear infinite;
+}
+.flyOrb:hover{
+    animation-play-state: paused;
+}
+.informationBlock{
+    display:none;
+    position: absolute;
+    border:1px solid grey;
+    left:100px;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:12px;
+}
+.flyOrb:hover > .informationBlock{
+    display:block;
+}
