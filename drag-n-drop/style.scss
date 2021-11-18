@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.area{
+    width:500px;
+    height: 700px;
+    border: 1px solid black;
+    background: #d4d2d2;
+    margin:0 10px;
+}
+.sort{
+    cursor:pointer;
+    list-style-type: none;
+    height: 18px;
+    width: 18px;
+    background-color: rgb(223, 217, 217);
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+.sort{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
